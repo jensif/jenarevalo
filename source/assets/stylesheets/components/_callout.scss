@@ -1,0 +1,12 @@
+.callout {
+  @include pad(40px 0);
+  @include margin(60px 0);
+  background-color: $black;
+  color: $white;
+  p {
+    @include pad(0 30px);
+    @include media($laptop) {
+      @include pad(0 70px);
+    }
+  }
+}

@@ -1,0 +1,99 @@
+.summary {
+  @include outer-container;
+  a {
+    text-decoration: underline;
+    font-weight: 300;
+  }
+  &__photo {
+    padding-bottom: 60px;
+    margin-top: -320px;
+    img {
+      box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.5);
+    }
+    .photo {
+      &__flag {
+        position: absolute;
+        background-color: $dark-yellow;
+        top: 100px;
+        margin: 20px 0 0 0;
+        padding: 15px 15px 0 15px;
+        display: block;
+        @include media($tablet) {
+          top: 200px;
+        }
+        p {
+          color: $white;
+          text-transform: uppercase;
+          margin-bottom: 0;
+        }
+        h3 {
+          color: $white;
+          font-size: $base-font-size * 2;
+          text-transform: uppercase;
+          text-align: left;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  &__title {
+    p {
+      @include pad(0 0 60px 0);
+      text-align: center;
+      text-transform: uppercase;
+      @include media($laptop) {
+        @include pad(10px 170px 60px 170px);
+      }
+    }
+  }
+  &__credits {
+    @include span-columns(12);
+    @include pad(10px 30px 60px);
+    @include media($laptop) {
+      @include span-columns(5);
+      @include pad(10px 70px 60px);
+    }
+    ul {
+      &:first-child {
+        margin-bottom:10px;
+      }
+      li {
+        font-size: $base-font-size / 1.0875;
+        line-height: $base-line-height * 1.15;
+        font-weight: 300;
+      }
+    }
+  }
+  &__description {
+    @include span-columns(12);
+    @include omega();
+    @include pad(10px 30px 60px);
+    @include media($laptop) {
+      @include span-columns(7);
+      @include pad(10px 70px 60px);
+    p {
+      text-align: left;
+      }
+    }
+  }
+}
+.details {
+  @include margin(60px 0);
+  &__split {
+    @include row;
+    img {
+      @include span-columns(12);
+      @include omega();
+      &:first-child {
+        margin-bottom: 20px;
+      }
+      @include media($laptop) {
+        @include span-columns(6);
+        @include omega(2n);
+        &:first-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

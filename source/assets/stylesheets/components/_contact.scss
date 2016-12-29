@@ -1,0 +1,21 @@
+.contact {
+  @include padding(70px 0);
+  width: 100%;
+  background-color: $dark-yellow;
+  color: $dark-gray;
+  text-align: center;
+  h1 {
+    color: $white;
+    margin: 0;
+  }
+  p {
+    margin-bottom: 30px;
+    }
+  button {
+    @include transition(all .15s ease-in-out);
+    color: $white;
+    &:hover {
+      color: $dark-yellow;
+    }
+  }
+}

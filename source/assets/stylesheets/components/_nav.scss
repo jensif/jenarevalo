@@ -1,0 +1,29 @@
+nav {
+  @include row;
+  z-index: 1;
+  position:fixed;
+  width:100%;
+  background:rgba(0,0,0,0.1);
+  color: $white;
+  text-transform: uppercase;
+  a {
+    @include transition(all .15s ease-in-out);
+    color: $white;
+    &:hover {
+      color: $dark-yellow;
+    }
+  }
+  ul {
+    @include padding(40px 0);
+    &:first-child {
+      float: left;
+    }
+    &:last-child {
+      float: right;
+    }
+    li {
+      display: inline-block;
+      clear: both;
+    }
+  }
+}

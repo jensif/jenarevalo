@@ -1,11 +1,83 @@
 ---
-title: Page Title
+title: Jen Arevalo Visual Designer & Illustrator
 ---
-
-.delete-me
-  .container
-    %h1 thoughtbot Middleman Starter
-    %p
-      You're all set!
-      <a href="http://github.com/thoughtbot/proteus-middleman">Let's get started</a>
-      building your prototype.
+.hero
+  .wrapper
+    %img{:src => "assets/images/title.png", :title => "Visual Designer & Illustrator", :alt => "Visual Designer & Illustrator"}/
+    %img{:src => "assets/images/gem.gif", :title => "Don't be a hard rock when you really are a gem.", :alt => "gem animation"}/
+.showcase
+  .wrapper
+    %ul.showcase__gallery
+      %li.gallery__project
+        %a{:href => "work/doglogapp"}
+          %img{:src => "assets/images/work/doglog-thumb.jpg", :title => "DogLog", :alt => "DogLog"}
+          %figure
+            %h2 DogLog
+            %h3 Visual Design / UI / UX
+      %li.gallery__project
+        %a{:href => "work/cyanna"}
+          %img{:src => "assets/images/work/cyanna-thumb.jpg", :title => "Cyanna", :alt => "Cyanna"}
+          %figure
+            %h2 Cyanna
+            %h3 Visual Design / UI / UX
+      %li.gallery__project
+        %a{:href => "work/alwayssummer"}
+          %img{:src => "assets/images/work/always-summer-thumb.jpg", :title => "Always Summer", :alt => "Always Summer"}
+          %figure
+            %h2 Always Summer
+            %h3 Creative Direction
+      %li.gallery__project
+        %a{:href => "work/courageawards"}
+          %img{:src => "assets/images/work/courage-awards-thumb.jpg", :title => "Courage Awards", :alt => "Courage Awards"}
+          %figure
+            %h2 Courage Awards
+            %h3 Branding / Print / UI / UX
+      %li.gallery__project
+        %a{:href => "work/thepost"}
+          %img{:src => "assets/images/work/the-post-thumb.jpg", :title => "The Post", :alt => "The Post"}
+          %figure
+            %h2 The Post
+            %h3 Visual Design / UI / UX
+      %li.gallery__project
+        %a{:href => "work/illustrations"}
+          %img{:src => "assets/images/work/illustrations-thumb.jpg", :title => "Illustrations", :alt => "Illustrations"}
+          %figure
+            %h2 Illustrations
+            %h3 Art Direction
+      %li.gallery__project
+        %a{:href => "work/wwpimpact"}
+          %img{:src => "assets/images/work/wwp-impact-thumb.jpg", :title => "Impact Campaign", :alt => "Impact Campaign"}
+          %figure
+            %h2 WWP Impact
+            %h3 Visual Design / UI / UX
+      %li.gallery__project
+        %a{:href => "work/ild"}
+          %img{:src => "assets/images/work/ild-thumb.jpg", :title => "I Love Design", :alt => "I Love Design"}
+          %figure
+            %h2 I Love Design
+            %h3 Creative / Motion Graphics
+      %li.gallery__project
+        %a{:href => "work/theoffice"}
+          %img{:src => "assets/images/work/the-office-thumb.jpg", :title => "Office Mural", :alt => "Office Mural"}
+          %figure
+            %h2 The Office
+            %h3 Video Production
+      %li.gallery__project
+        %a{:href => "work/lettering"}
+          %img{:src => "assets/images/work/lettering-thumb.jpg", :title => "Lettering", :alt => "Lettering"}
+          %figure
+            %h2 Lettering
+            %h3 Art Direction
+      %li.gallery__project
+        %a{:href => "work/oppsapp"}
+          %img{:src => "assets/images/work/operations-thumb.jpg", :title => "Operations App", :alt => "Operations App"}
+          %figure
+            %h2 Operations App
+            %h3 Visual Design / UX
+      %li.gallery__project
+        %a{:href => "work/posters"}
+          %img{:src => "assets/images/work/posters-thumb.jpg", :title => "Posters", :alt => "Posters"}
+          %figure
+            %h2 Posters
+            %h3 Art Direction / Illustration
+= partial "shared/contact"

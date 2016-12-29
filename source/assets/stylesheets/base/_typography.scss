@@ -17,8 +17,18 @@ h6 {
   margin: 0 0 $small-spacing;
 }
 
+h1 {
+  color: $dark-yellow;
+  font-size: $base-font-size * 2.25;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 p {
   margin: 0 0 $small-spacing;
+  font-weight: 300;
 }
 
 a {

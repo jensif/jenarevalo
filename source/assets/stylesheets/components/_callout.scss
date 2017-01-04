@@ -8,5 +8,9 @@
     @include media($laptop) {
       @include pad(0 70px);
     }
+    a {
+      color: $white;
+      text-decoration: underline;
+    }
   }
 }

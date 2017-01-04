@@ -80,6 +80,9 @@
 .details {
   @include row;
   @include margin(60px 0);
+  img + img {
+    margin-top: 20px;
+  }
   &__split {
     @include span-columns(12);
     @include omega();
@@ -92,6 +95,11 @@
       &:first-child {
         margin-bottom: 0;
       }
+    }
+    video {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
     }
     .split {
       @include span-columns(8);

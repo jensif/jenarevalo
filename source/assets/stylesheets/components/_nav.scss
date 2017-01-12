@@ -29,7 +29,7 @@ nav {
       @include clearfix();
       display: inline-block;
       a {
-        @include pad(35px);
+        @include padding(35px);
         display: inline-block;
       }
       &.home {
@@ -80,7 +80,7 @@ nav {
   }
   .closebtn {
     @include position(absolute, 0 0 null null);
-    @include pad(35px);
+    @include padding(35px);
     font-size: 20px;
     height: 96px;
     background-color: $black;

@@ -6,9 +6,9 @@ body {
 .wrapper {
   @include row;
   @include outer-container;
-  @include pad(0 20px);
+  @include padding(0 20px);
   @include media($desktop) {
-    @include pad(0);
+    @include padding(0);
   }
 }
 

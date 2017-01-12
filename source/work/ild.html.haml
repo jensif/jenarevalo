@@ -5,7 +5,7 @@ title: Jen Arevalo Visual Designer & Illustrator
 .summary
   .wrapper
     .summary__photo
-      %img{:src => "../assets/images/work/ild-hero.jpg", :title => "I Love Design", :alt => "I Love Design"}
+      = image_tag("work/ild-hero.jpg", {:title => "I Love Design", :alt => "I Love Design"})
       .photo__flag
         %p
           Visual Design / Motion Graphics
@@ -35,15 +35,15 @@ title: Jen Arevalo Visual Designer & Illustrator
 .details
   .wrapper
     .details__split
-      %img{:src => "../assets/images/work/ild-kc-marvel.jpg", :title => "the Marvel Logo sequence", :alt => "the Marvel Logo sequence"}
-        .details__button
-          %a{:href => "http://media.prologuefilms.com/movies/se7en.mp4"}
-            %button{:type => "button"} Marvel Logo Sequence
+      = image_tag("work/ild-kc-marvel.jpg", {:title => "the Marvel Logo sequence", :alt => "the Marvel Logo sequence"})
+      .details__button
+        %a{:href => "http://media.prologuefilms.com/movies/se7en.mp4"}
+          %button{:type => "button"} Marvel Logo Sequence
     .details__split
-      %img{:src => "../assets/images/work/ild-kc-seven.jpg", :title => "the seven title sequence", :alt => "the seven title sequence"}
-        .details__button
-          %a{:href => "http://media.prologuefilms.com/movies/marvel_logo.mp4"}
-            %button{:type => "button"} Se7en Title Sequence
+      = image_tag("work/ild-kc-seven.jpg", {:title => "the seven title sequence", :alt => "the seven title sequence"})
+      .details__button
+        %a{:href => "http://media.prologuefilms.com/movies/marvel_logo.mp4"}
+          %button{:type => "button"} Se7en Title Sequence
 .callout
   .wrapper
     %p
@@ -56,17 +56,17 @@ title: Jen Arevalo Visual Designer & Illustrator
 .details
   .wrapper
     .details__split
-      %img{:src => "../assets/images/work/ild-bokeh.jpg", :title => "bokeh night", :alt => "bokeh night"}
+      = image_tag("work/ild-bokeh.jpg", {:title => "bokeh night", :alt => "bokeh night"})
     .details__split
-      %img{:src => "../assets/images/work/ild-stairs.jpg", :title => "fire escape", :alt => "fire escape"}
-    %img{:src => "../assets/images/work/ild-elements.jpg", :title => "additional elements", :alt => "additional elements"}
+      = image_tag("work/ild-stairs.jpg", {:title => "fire escape", :alt => "fire escape"})
+    = image_tag("work/ild-elements.jpg", {:title => "additional elements", :alt => "additional elements"})
 .callout
   .wrapper
     %p
       Content and images were then placed on iKit, an open-source framework for WordPress, to showcase the event to the masses, then integrated into Eventbrite.
 .details
   .wrapper
-    %img{:src => "../assets/images/work/ild-screen.jpg", :title => "I Love Design screen", :alt => "I Love Design screen"}
+    = image_tag("work/ild-screen.jpg", {:title => "I Love Design screen", :alt => "I Love Design screen"})
 .callout
   .wrapper
     %p
@@ -74,10 +74,10 @@ title: Jen Arevalo Visual Designer & Illustrator
 .details
   .wrapper
     .details__split
-      %video{ controls: "", :loop => true, name: "media"}
+      %video{controls: "", :loop => true, name: "media"}
         %source{src: "https://scontent.cdninstagram.com/t50.2886-16/15872602_170980456716081_7572179431934918656_n.mp4", type: "video/mp4"}
     .details__split
-      %img{:src => "../assets/images/work/ild-effects.jpg", :title => "after effects screen", :alt => "after effects screen"}
+      = image_tag("work/ild-effects.jpg", {:title => "after effects screen", :alt => "after effects screen"})
       %p
         An assortment of graphic techniques were applied to the original artwork adding scramble and fractal noise, mirroring the distorted reality of movie sequences. Chromatic breakup transitioning between footage and text would be a preview of the intense talk from Kyle.
       %p

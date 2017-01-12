@@ -5,7 +5,7 @@ title: Jen Arevalo Visual Designer & Illustrator
 .summary
   .wrapper
     .summary__photo
-      %img{:src => "../assets/images/work/illustrations-hero.jpg", :title => "Illustrations", :alt => "Illustrations"}
+      = image_tag("work/illustrations-hero.jpg", {:title => "Illustrations", :alt => "Illustrations"})
       .photo__flag
         %p
           Creative Direction
@@ -34,35 +34,35 @@ title: Jen Arevalo Visual Designer & Illustrator
 .details
   .wrapper
     .details__split
-      %img{:src => "../assets/images/work/illustrations-bowie.gif", :title=> "David Bowie animation", :alt => "David Bowie animation"}
+      = image_tag("work/illustrations-bowie.gif", {:title=> "David Bowie animation", :alt => "David Bowie animation"})
     .details__split
-      %video{ controls: "", :poster => "../assets/images/work/illustrations-slightwork.jpg", :loop => true, name: "media"}
+      %video{controls: "", :poster => image_path("work/illustrations-slightwork.jpg"), :loop => true, name: "media"}
         %source{src: "https://scontent.cdninstagram.com/t50.2886-16/10949670_398204940361833_2092189753_n.mp4", type: "video/mp4"}
 .details
   .wrapper
     .details__split
-      %img{:src => "../assets/images/work/illustrations-clementine.jpg", :title=> "vw bus illustration", :alt => "vw bus illustration"}
+      = image_tag("work/illustrations-clementine.jpg", {:title=> "vw bus illustration", :alt => "vw bus illustration"})
     .details__split
-      %img{:src => "../assets/images/work/illustrations-explore.jpg", :title=> "explore pack", :alt => "explore pack"}
+      = image_tag("work/illustrations-explore.jpg", {:title=> "explore pack", :alt => "explore pack"})
     .details__split
-      %img{:src => "../assets/images/work/illustrations-turkey.jpg", :title=> "turkey illustration", :alt => "turkey illustration"}
+      = image_tag("work/illustrations-turkey.jpg", {:title=> "turkey illustration", :alt => "turkey illustration"})
     .details__split
-      %img{:src => "../assets/images/work/illustrations-prince.gif", :title=> "prince animation", :alt => "prince animation"}
+      = image_tag("work/illustrations-prince.gif", {:title=> "prince animation", :alt => "prince animation"})
 .details
   .wrapper
-    %img{:src => "../assets/images/work/illustrations-ride.jpg", :title=> "motorcycle illustration", :alt => "motorcycle illustration"}
+    = image_tag("work/illustrations-ride.jpg", {:title=> "motorcycle illustration", :alt => "motorcycle illustration"})
 .details
   .wrapper
     .details__split
-      %img{:src => "../assets/images/work/illustrations-holidays.jpg", :title=> "workday icons", :alt => "workday icons"}
+      = image_tag("work/illustrations-holidays.jpg", {:title=> "workday icons", :alt => "workday icons"})
     .details__split
-      %img{:src => "../assets/images/work/illustrations-announcements.jpg", :title=> "workday icons", :alt => "workday icons"}
+      = image_tag("work/illustrations-announcements.jpg", {:title=> "workday icons", :alt => "workday icons"})
     .details__split
-      %img{:src => "../assets/images/work/illustrations-maze.jpg", :title=> "keynote illustrations", :alt => "keynote illustrations"}
+      = image_tag("work/illustrations-maze.jpg", {:title=> "keynote illustrations", :alt => "keynote illustrations"})
     .details__split
-      %img{:src => "../assets/images/work/illustrations-construction.jpg", :title=> "keynote illustrations", :alt => "keynote illustrations"}
+      = image_tag("work/illustrations-construction.jpg", {:title=> "keynote illustrations", :alt => "keynote illustrations"})
     .details__split
-      %img{:src => "../assets/images/work/illustrations-rubiks.jpg", :title=> "woodburning", :alt => "woodburning"}
+      = image_tag("work/illustrations-rubiks.jpg", {:title=> "woodburning", :alt => "woodburning"})
     .details__split
-      %img{:src => "../assets/images/work/illustrations-munny.jpg", :title=> "kale munny", :alt => "kale munny"}
+      = image_tag("work/illustrations-munny.jpg", {:title=> "kale munny", :alt => "kale munny"})
 = partial "shared/contact"

@@ -7,7 +7,7 @@
   }
   &__photo {
     figcaption {
-      @include padding(10px 0);
+      @include pad(10px 0);
       font-size: $base-font-size / 1.15;
       font-weight: 300;
       text-align: center;
@@ -17,20 +17,20 @@
       }
   }
   &__summary {
-    @include padding(30px 30px);
+    @include pad(30px 30px);
     @include media($laptop) {
-      @include padding(30px 170px);
+      @include pad(30px 170px);
     }
   }
   &__expertise {
-    @include padding(30px 60px);
+    @include pad(30px 60px);
     p {
       text-align: center;
       text-transform: uppercase;
     }
   }
   &__availability {
-    @include padding(30px 60px 60px 60px);
+    @include pad(30px 60px 60px 60px);
     p {
       text-align: center;
       margin-bottom: 0;

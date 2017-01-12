@@ -1,12 +1,12 @@
 .callout {
-  @include padding(40px 0);
+  @include pad(40px 0);
   @include margin(60px 0);
   background-color: $black;
   color: $white;
   p {
-    @include padding(0 30px);
+    @include pad(0 30px);
     @include media($laptop) {
-      @include padding(0 70px);
+      @include pad(0 70px);
     }
     a {
       color: $white;
@@ -18,10 +18,10 @@
     padding-top: 100px;
     text-align: center;
     p {
-      @include padding(0);
+      @include pad(0);
       margin-top: 20px;
       @include media($laptop) {
-        @include padding(0 240px);
+        @include pad(0 240px);
       }
       &::before, &::after {
         position: absolute;
@@ -58,7 +58,7 @@
       }
     }
     cite {
-      @include padding(0 240px);
+      @include pad(0 240px);
       font-style: normal;
       font-weight: 300;
       font-size: $base-font-size / 1.35;

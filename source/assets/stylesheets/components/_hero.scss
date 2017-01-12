@@ -1,5 +1,5 @@
 .hero {
-  @include padding(80px 0);
+  @include pad(80px 0);
   width: 100%;
   background: image-url('assets/images/cover.jpg');
   background-size:cover;
@@ -11,23 +11,23 @@
     color: $white;
   }
   &--compact {
-    @include padding(175px 0 80px 0);
+    @include pad(175px 0 80px 0);
     background: image-url('assets/images/hero.jpg');
     background-position: bottom;
     p {
-      @include padding(60px 30px 120px);
+      @include pad(60px 30px 120px);
       text-align: left;
       font-weight: 500;
       @include media($laptop) {
-        @include padding(60px 170px 120px 170px);
+        @include pad(60px 170px 120px 170px);
       }
       @include media($desktop) {
-        @include padding(60px 280px 170px 280px);
+        @include pad(60px 280px 170px 280px);
       }
     }
   }
   &--work {
-    @include padding(175px 0 80px 0);
+    @include pad(175px 0 80px 0);
     background: image-url('assets/images/hero.jpg');
     background-position: bottom;
     min-height: 400px;

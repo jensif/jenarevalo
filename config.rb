@@ -23,5 +23,6 @@ end
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
+  deploy.remote = 'git@github.com:jensif/jensif.github.io.git'
   deploy.branch = 'master'
 end

@@ -1,5 +1,5 @@
 .hero {
-  @include padding(80px 0);
+  @include pad(80px 0);
   width: 100%;
   background: image-url('assets/images/cover.jpg');
   background-size:cover;
@@ -11,6 +11,7 @@
     color: $white;
   }
   &--compact {
+    @include pad(175px 0 80px 0);
     background: image-url('assets/images/hero.jpg');
     background-position: bottom;
     p {
@@ -26,6 +27,7 @@
     }
   }
   &--work {
+    @include pad(175px 0 80px 0);
     background: image-url('assets/images/hero.jpg');
     background-position: bottom;
     min-height: 400px;

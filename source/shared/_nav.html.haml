@@ -1,8 +1,52 @@
 %nav
   .wrapper
     %ul
-      %li
-        %a{:href => "/", :target => "_self"} Jen Arevalo
+      %li.home
+        = image_tag 'gem-icon.gif', :class => 'logo', :alt => 'Gem'
+        %a{:href => "/", :target => "_self"}Jen Arevalo
     %ul
       %li
         %a{:href => "/about", :target => "_self"} About
+      %li.menu
+        %a{:href => "javascript:void(0)", :onclick => "openNav()"}
+          %i.zmdi.zmdi-menu
+#nav.overlay
+  %a.closebtn{:href => "javascript:void(0)", :onclick => "closeNav()"}
+    %i.zmdi.zmdi-close
+  .overlay-content
+    .wrapper
+      %ul
+        %li
+          %a{:href => "/work/doglogapp"} DogLog
+        %li
+          %a{:href => "/work/cyanna"} Cyanna
+        %li
+          %a{:href => "/work/alwayssummer"} Always Summer
+        %li
+          %a{:href => "/work/courageawards"} Courage Awards
+        %li
+          %a{:href => "/work/thepost"} The Post
+        %li
+          %a{:href => "/work/illustrations"} Illustrations
+      %ul
+        %li
+          %a{:href => "/work/wwpimpact"} WWP Impact
+        %li
+          %a{:href => "/work/ild"} I Love Design
+        %li
+          %a{:href => "/work/theoffice"} The Office
+        %li
+          %a{:href => "/work/lettering"} Lettering
+        %li
+          %a{:href => "/work/portfolio"} Portfolio
+        %li
+          %a{:href => "/work/posters"} Posters
+
+:javascript
+  function openNav() {
+      document.getElementById("nav").style.height = "100%";
+  }
+
+  function closeNav() {
+      document.getElementById("nav").style.height = "0%";
+  }

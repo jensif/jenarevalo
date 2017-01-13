@@ -1,8 +1,7 @@
 .hero {
   @include pad(0 0 40px 0);
   width: 100%;
-  background-image: image-url('assets/images/cover-mobile.jpg');
-  background-size:cover;
+  background: image-url('assets/images/cover-mobile.jpg');
   background-position:center center;
   background-attachment:fixed;
   color: $white;
@@ -10,6 +9,7 @@
   @include media($laptop) {
     @include pad(40px 0);
     background-image: image-url('assets/images/cover.jpg');
+    background-size:cover;
   }
   h1 {
     color: $white;

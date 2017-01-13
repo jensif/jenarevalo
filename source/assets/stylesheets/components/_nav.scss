@@ -86,6 +86,7 @@ nav {
     height: 96px;
     background-color: $black;
     color: $white;
+    z-index: 9999;
     &:hover {
       color: $dark-yellow;
     }

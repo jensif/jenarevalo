@@ -48,8 +48,9 @@ nav {
         background-color: $dark-yellow;
         border: 1px solid $dark-yellow;
         a {
+          color: $black;
           &:hover {
-            color: $black;
+            color: $white;
           }
         }
       }

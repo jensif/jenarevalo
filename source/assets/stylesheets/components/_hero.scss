@@ -1,19 +1,25 @@
 .hero {
   @include pad(80px 0);
   width: 100%;
-  background: image-url('assets/images/cover.jpg');
+  background-image: image-url('assets/images/cover-mobile.jpg');
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
   color: $white;
   text-align: center;
+  @include media($laptop) {
+    background-image: image-url('assets/images/cover.jpg');
+  }
   h1 {
     color: $white;
   }
   &--compact {
     @include pad(175px 0 80px 0);
-    background: image-url('assets/images/hero.jpg');
+    background: image-url('assets/images/hero-mobile.jpg');
     background-position: bottom;
+    @include media($laptop) {
+      background: image-url('assets/images/hero.jpg');
+    }
     p {
       @include pad(60px 30px 120px);
       text-align: left;
@@ -28,11 +34,14 @@
   }
   &--work {
     @include pad(175px 0 80px 0);
-    background: image-url('assets/images/hero.jpg');
+    background: image-url('assets/images/hero-mobile.jpg');
     background-position: bottom;
     min-height: 400px;
     @include media($tablet) {
       min-height: 509px;
+    }
+    @include media($laptop) {
+      background: image-url('assets/images/hero.jpg');
     }
   }
 }

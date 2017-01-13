@@ -6,20 +6,23 @@
   }
   &__photo {
     padding-bottom: 60px;
-    margin-top: -320px;
+    margin-top: -230px;
+    @include media($tablet) {
+      margin-top: -320px;
+    }
     img {
       box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.5);
     }
     .photo {
       &__flag {
-        position: absolute;
-        background-color: $dark-yellow;
-        top: 100px;
-        margin: 20px 0 0 0;
-        padding: 15px 15px 0 15px;
-        display: block;
+        display: none;
         @include media($tablet) {
+          display: block;
           top: 200px;
+          position: absolute;
+          background-color: $dark-yellow;
+          margin: 20px 0 0 0;
+          padding: 15px 15px 0 15px;
         }
         p {
           color: $white;

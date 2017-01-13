@@ -65,7 +65,7 @@ nav {
   a {
     @include transition(.3s);
     display: block;
-    padding: 20px;
+    padding: 10px;
     font-size: $base-font-size * 1.25;
     font-weight: 700;
     text-decoration: none;
@@ -73,6 +73,7 @@ nav {
     color: $black;
     @include media($laptop) {
       font-size: $base-font-size * 2.25;
+      padding: 20px;
     }
     &:hover, &:focus {
       color: #f1f1f1;

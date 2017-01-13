@@ -2,8 +2,9 @@
   .wrapper
     %ul
       %li.home
-        = image_tag("gem-icon.gif", {:class => "logo", :alt => "Gem"})
-        %a{:href => "/", :target => "_self"}Jen Arevalo
+        %a.home__icon{:href => "/", :target => "_self"}
+          = image_tag("gem-icon.gif", {:class => "logo", :alt => "Gem"})
+        %a.home__name{:href => "/", :target => "_self"}Jen Arevalo
     %ul
       %li
         %a{:href => "/about", :target => "_self"} About

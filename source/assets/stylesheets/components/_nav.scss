@@ -42,6 +42,21 @@ nav {
         a {
           padding-left: 0;
           padding-right: 0;
+          &.home {
+            &__icon {
+              padding-top: 10px;
+              padding-bottom: 10px;
+              @include media($tablet) {
+                padding: 0;
+              }
+            }
+            &__name {
+              display: none;
+              @include media($tablet) {
+                display: inherit;
+              }
+            }
+          }
         }
       }
       &.menu {

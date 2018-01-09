@@ -9,8 +9,14 @@
       @include pad(0 70px);
     }
     a {
+      @include transition(.3s);
+      text-decoration: none;
+      border-bottom: 2px solid $white;
       color: $white;
-      text-decoration: underline;
+      &:hover, &:focus {
+        color: $dark-yellow;
+        border-color: $dark-yellow;
+      }
     }
   }
   &--quote {
@@ -25,10 +31,11 @@
       }
       &::before, &::after {
         position: absolute;
-        top: 0;
+        top: -50px;
         font-size: 160px;
         font-family: 'Arial Black';
         line-height: 1;
+        color: $dark-yellow;
       }
       &::before {
         content: "\201C";

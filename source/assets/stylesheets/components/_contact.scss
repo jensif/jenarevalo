@@ -15,7 +15,7 @@
     @include transition(all .15s ease-in-out);
     color: $white;
     &:hover {
-      color: $dark-yellow;
+      color: $white;
     }
   }
 }

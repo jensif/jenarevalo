@@ -8,11 +8,13 @@
   text-align: center;
   @include media($laptop) {
     @include pad(40px 0);
-    background-image: image-url('assets/images/cover.jpg');
+    background: linear-gradient(to bottom right, rgba(0,0,0,.4), rgba(0,0,0,.9)), image-url('assets/images/cover.gif');
     background-size:cover;
   }
   h1 {
     color: $white;
+    padding-top: 100px;
+    font-size: $base-font-size * 4.25;
   }
   &--compact {
     @include pad(135px 0 80px 0);
@@ -20,7 +22,11 @@
     background-position: bottom;
     @include media($laptop) {
       @include pad(175px 0 80px 0);
-      background: image-url('assets/images/hero.jpg');
+      left: 0;
+      top: 0;
+      background: linear-gradient(to bottom right, rgba(0,0,0,.4), rgba(0,0,0,.9)), image-url('assets/images/cover.gif');
+      font-family: $heading-font-family;
+      overflow-x: hidden;
     }
     p {
       @include pad(60px 30px 120px);
@@ -44,7 +50,7 @@
     }
     @include media($laptop) {
       @include pad(175px 0 80px 0);
-      background: image-url('assets/images/hero.jpg');
+      background: linear-gradient(to bottom right, rgba(0,0,0,.4), rgba(0,0,0,.9)), image-url('assets/images/cover.gif');
     }
   }
 }

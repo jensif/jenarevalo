@@ -5,14 +5,15 @@ nav {
   width:100%;
   height: 56px;
   background: $black;
+  font-family: $heading-font-family;
   color: $white;
-  text-transform: uppercase;
   @include media($laptop) {
-    height: 96px;
+    height: 66px;
   }
   a {
     @include transition(all .15s ease-in-out);
     color: $white;
+    font-weight: 400;
     &:hover {
       color: $dark-yellow;
     }
@@ -35,7 +36,7 @@ nav {
         @include pad(15px);
         display: inline-block;
         @include media($laptop) {
-          @include pad(35px);
+          @include pad(20px);
         }
       }
       &.home {
@@ -81,7 +82,8 @@ nav {
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: $dark-yellow;
+  background: linear-gradient(to bottom right, rgba(0,0,0,.4), rgba(0,0,0,.9)), image-url('assets/images/cover.gif');
+  font-family: $heading-font-family;
   overflow-x: hidden;
   transition: 0.5s;
   a {
@@ -89,16 +91,15 @@ nav {
     display: block;
     padding: 10px;
     font-size: $base-font-size * 1.25;
-    font-weight: 700;
+    font-weight: 800;
     text-decoration: none;
-    text-transform: uppercase;
-    color: $black;
+    color: $white;
     @include media($laptop) {
       font-size: $base-font-size * 2.25;
       padding: 20px;
     }
     &:hover, &:focus {
-      color: #f1f1f1;
+      color: $dark-yellow;
     }
   }
   .closebtn {
@@ -113,9 +114,9 @@ nav {
       color: $dark-yellow;
     }
     @include media($laptop) {
-      @include pad(35px);
+      @include pad(20px);
       @include position(absolute, 0 5% null null);
-      height: 96px;
+      height: 66px;
     }
     @include media($tv) {
       @include position(absolute, 0 11.5% null null);

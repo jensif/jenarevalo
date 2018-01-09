@@ -1,8 +1,14 @@
 .summary {
   @include outer-container;
   a {
-    text-decoration: underline;
-    font-weight: 300;
+    @include transition(.3s);
+    text-decoration: none;
+    border-bottom: 2px solid $black;
+    color: $black;
+    &:hover, &:focus {
+      color: $dark-yellow;
+      border-color: $dark-yellow;
+    }
   }
   &__photo {
     padding-bottom: 60px;
@@ -22,17 +28,18 @@
           position: absolute;
           background-color: $dark-yellow;
           margin: 20px 0 0 0;
-          padding: 15px 15px 0 15px;
+          padding: 20px;
         }
         p {
-          color: $white;
+          color: $black;
           text-transform: uppercase;
           margin-bottom: 0;
         }
         h3 {
-          color: $white;
+          color: $black;
           font-size: $base-font-size * 2;
-          text-transform: uppercase;
+          font-family: $heading-font-family;
+          font-weight: 800;
           text-align: left;
           margin-bottom: 5px;
         }

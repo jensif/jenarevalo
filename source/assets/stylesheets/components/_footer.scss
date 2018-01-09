@@ -2,12 +2,13 @@ footer {
   @include row;
   background-color: $black;
   color: $white;
-  text-transform: uppercase;
+  font-family: $heading-font-family;
   a {
     @include transition(all .15s ease-in-out);
     @include pad(20px);
     display: block;
     color: $white;
+    font-size: $base-font-size * 1.25;
     &:hover {
       color: $dark-yellow;
     }

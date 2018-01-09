@@ -1,8 +1,9 @@
 // Typography
-$poppins: 'Poppins', sans-serif, $helvetica;
+$roboto: 'Roboto', sans-serif, $helvetica;
+$playfair: 'Playfair Display', serif;
 
-$base-font-family: $poppins;
-$heading-font-family: $base-font-family;
+$base-font-family: $roboto;
+$heading-font-family: $playfair;
 
 // Font Sizes
 $base-font-size: 1em;
@@ -19,9 +20,11 @@ $base-z-index: 0;
 
 // Colors
 $black: #000;
-$dark-yellow: #E6C81B;
+$dark-yellow: #E2A926;
 $dark-gray: #4A4A4A;
-$white: #fff;
+$light-gray: #f2f2f2;
+$white: #FFF;
+$dark-brown: #CFB57A;
 
 // Font Colors
 $base-font-color: $dark-gray;

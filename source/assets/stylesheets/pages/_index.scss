@@ -22,21 +22,23 @@
           @include omega(4n);
         }
         figure {
-          @include transition(all .15s ease-in-out);
-          background-color: $dark-yellow;
+          @include transition(background 10s ease-in-out);
+          border: $black 3px solid;
           margin: 20px 0 0 0;
-          padding: 20px 0;
+          padding: 20px 0 25px;
           text-transform: uppercase;
           text-align: center;
           &:hover {
-            background-color: $black;
+            @include transition(background 10s ease-in-out);
+            background: linear-gradient(to bottom right, rgba(0,0,0,.4), rgba(0,0,0,.8)), image-url('assets/images/project.gif');
           }
-          &:hover h3 {
+          &:hover h4, &:hover h5 {
+            @include transition(all .15s ease-in-out);
             color: $white;
           }
           h2 {
-            color: $white;
-            font-size: $base-font-size * 1.5;
+            color: $black;
+            font-size: $base-font-size / 1.5;
             font-weight: 700;
             margin-bottom: 5px;
           }

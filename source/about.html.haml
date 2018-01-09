@@ -1,30 +1,43 @@
 ---
-title: Jen Arevalo Visual Designer & Illustrator
+title: Jen Arevalo UI/X Designer + Developer
 ---
 .hero.hero--compact
-  .wrapper
-    %p
-      Hello! I’m Jen Arevalo, a visual designer, and illustrator from Jacksonville, Florida with over 7 years experience in the industry. I have an unabashed love for crafting personal and meaningful design experiences. Function and aesthetics in the digital era are my bread and butter.
 .profile
   .wrapper
-    .profile__photo
-      = image_tag("about/headshot.jpg", {:title => "Jen", :alt => "Jen"})
-      %figcaption
-        Photography: Jill Devries
-    .profile__summary
+    .info__split
+      .profile__photo
+        = image_tag("about/headshot.jpg", {:title => "Jen", :alt => "Jen"})
+        %figcaption
+          Photography: Shane Santiago
+    .info__split
+      %h2
+        Hello! I'm Jen
+        %a{:href => "#", :title => "(ar-eh-vah-lo)"} Arevalo,
+        mononymously known as Homey, and I'm a UI/X designer + developer.
       %p
-        When I’m not pushing pixels, I currently serve as incoming Vice President for AIGA Jacksonville, a local chapter of the nation’s largest community of design advocates. I have a passion for continued learning and advancing design in my hometown of Jacksonville. In my work, coupling design thinking and problem solving are catalysts for enhancing the next big idea.
-    .profile__expertise
+        Function and aesthetics are my bread and butter for building a personable brand experience. My passion for design stems from a lifelong fascination of creatively solving problems. I'm currently an experience designer and front-end developer at an ad agency, and I serve as Vice President for
+        %a{:href => "https://jacksonville.aiga.org/", :target => "_blank"} AIGA Jacksonville,
+        a local chapter of the nation’s largest community of design advocates, promoting the value of design.
+      %p
+        While my focus is on user interactions and the functional experience, I'm a lover of learning and advancing design. Being an interdisciplinary designer has provided a wide lens on how to work with small and large teams and move through projects with high-level analysis of end-to-end user experiences.
       %h1
-        Expertise
+        A few of my favorite things.
       %p
-        Creative Direction / Web / Illustration / Branding / Print / Motion Graphics
-    .profile__availability
+        Art Direction / Animation / Branding / Content Generation / Coding (HTML/CSS Frameworks/JS/Haml/Sass) / Design Thinking / Git /
+        %a{:href => "work/illustrations", :target => "_blank"} Illustration /
+        Information Architecture / Interface Design /
+        %a{:href => "work/lettering", :target => "_blank"} Lettering /
+        Motion Graphics /
+        %a{:href => "work/posters", :target => "_blank"} Poster Design /
+        Rapid Prototyping / Social Media Strategy / User Flows /
+        %a{:href => "work/theoffice", :target => "_blank"} Video Editing /
+        Visual Design / Web Accessibility, Usability, and Inclusion / Wireframing
+.callout
+  .wrapper
+    .callout__companies
       %h1
-        Availability
+        In great company!
       %p
-        I’m currently accepting new projects.
-      %p
-        Let’s work together:
-        %a{:href => "mailto:jensarevalo@gmail.com", :target => "_blank"}
-          jensarevalo@gmail.com
+        A collective of amazing people and teams I've connected with and learned from along the way.
+        = image_tag("about/companies.png", {:title => "companies", :alt => "companies"})
+= partial "shared/contact"

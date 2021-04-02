@@ -34,7 +34,7 @@ class MyDocument extends Document {
                 ga('create', 'UA-90347905-1', 'auto');
                 ga('send', 'pageview');`,
             }}
-          ></script>
+          />
         </Head>
         <body>
           <Main />

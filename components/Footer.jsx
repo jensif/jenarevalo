@@ -5,27 +5,27 @@ export default function Footer() {
         <ul className="social">
           <li>
             <a href="http://dribbble.com/homey" target="_blank">
-              <i className="zmdi zmdi-dribbble"></i>
+              <i className="zmdi zmdi-dribbble" />
             </a>
           </li>
           <li>
             <a href="http://twitter.com/jensif" target="_blank">
-              <i className="zmdi zmdi-twitter"></i>
+              <i className="zmdi zmdi-twitter" />
             </a>
           </li>
           <li>
             <a href="http://instagram.com/homeydontplaythat" target="_blank">
-              <i className="zmdi zmdi-instagram"></i>
+              <i className="zmdi zmdi-instagram" />
             </a>
           </li>
           <li>
             <a href="http://linkedin.com/in/jenarevalo" target="_blank">
-              <i className="zmdi zmdi-linkedin"></i>
+              <i className="zmdi zmdi-linkedin" />
             </a>
           </li>
           <li>
             <a href="mailto:jensarevalo@gmail.com" target="_blank">
-              <i className="zmdi zmdi-email"></i>
+              <i className="zmdi zmdi-email" />
             </a>
           </li>
         </ul>

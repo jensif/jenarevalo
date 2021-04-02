@@ -159,4 +159,3 @@ export default function AlwaysSummer() {
 //       = image_tag("work/alwayssummer-email-1.gif", {:title => "Always Summer is Back email", :alt => "Always Summer is Back email"})
 //     .details__split
 //       = image_tag("work/alwayssummer-email-2.gif", {:title => "Speaker email", :alt => "Speaker email"})
-// = partial "shared/contact"

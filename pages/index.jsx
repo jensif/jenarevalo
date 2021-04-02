@@ -232,5 +232,3 @@ function Home() {
 }
 
 export default Home;
-
-// = partial "shared/contact"

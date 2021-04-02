@@ -32,6 +32,7 @@ export default function Nav() {
               </Link>
             </li>
             <li className="menu">
+              {/* Technically, this should be a `button`. */}
               <a href="#" onClick={toggleMenuOpen}>
                 <i className="zmdi zmdi-menu" />
               </a>
@@ -41,6 +42,7 @@ export default function Nav() {
       </nav>
 
       <div id="nav" className={clsx("overlay", { open })}>
+        {/* Technically, this should be a `button`. */}
         <a href="#" className="closebtn" onClick={toggleMenuOpen}>
           <i className="zmdi zmdi-close" />
         </a>

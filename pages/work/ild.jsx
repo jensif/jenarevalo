@@ -1,0 +1,100 @@
+// ---
+// title: Jen Arevalo UI/X Designer + Developer
+// ---
+// .hero.hero--work
+// .summary
+//   .wrapper
+//     .summary__photo
+//       = image_tag("work/ild-hero.jpg", {:title => "I Love Design", :alt => "I Love Design"})
+//       .photo__flag
+//         %p
+//           Visual Design / Motion Graphics
+//         %h3
+//           I Love Design
+//     .summary__title
+//       %h1
+//         I Love Design
+//       %p
+//         Annual Valentine to the Jacksonville creative community
+//     .summary__credits
+//       %ul
+//         %li
+//           Client: AIGA Jacksonville
+//         %li
+//           Role: Visual Design / Motion Design / Event
+//       %ul
+//         %li
+//           Content Writer: Beth Nabi
+//     .summary__description
+//       %p
+//         I Love Design is AIGA Jacksonville's most prestigious speaking event of the year. The focus of the event is to lead local designers and businesses to the next level. In years past, the pantheon of speakers included Louise Fili, Michael Bierut, and House Industries. The speaker, generally a tenured designer who has been in the industry for more than 20 years, is invited to present their inspiring work and insights on why they continue to work in design. For 2017, AIGA Jacksonville invited title sequence and motion designer Kyle Cooper.
+// .callout
+//   .wrapper
+//     %p
+//       Chances are your favorite movie, TV show or video game is a title sequence Kyle Cooper has worked on:
+//       %em The Walking Dead,
+//       %em American Horror Story,
+//       %em Mission: Impossible,
+//       %em X-Men,
+//       %em Iron Man,
+//       %em Spider-Man
+//       %em Dawn of the Dead
+//       %em Argo,
+//       %em Donnie Brasco
+//       %em The Mummy,
+//       %em Twister…
+//       His IMDB entry is so amazingly long and varied, we can’t do it justice here. You may know his name, but you’ve definitely seen his work.
+// .details
+//   .wrapper
+//     .details__split
+//       = image_tag("work/ild-kc-marvel.jpg", {:title => "the Marvel Logo sequence", :alt => "the Marvel Logo sequence"})
+//       .details__button
+//         %a{:href => "http://oldsite.prologue.com/media/whats-past/projects/se7en", :target => "_blank"}
+//           %button{:type => "button"}Marvel Logo Sequence
+//     .details__split
+//       = image_tag("work/ild-kc-seven.jpg", {:title => "the seven title sequence", :alt => "the seven title sequence"})
+//       .details__button
+//         %a{:href => "http://oldsite.prologue.com/media/whats-past/projects/marvel", :target => "_blank"}
+//           %button{:type => "button"}Se7en Title Sequence
+// .callout
+//   .wrapper
+//     %p
+//       With the title sequence for
+//       %em Se7en,
+//       %em Island of Dr. Moreau,
+//       and
+//       %em Mimic,
+//       Borrowing his signature elements of perfecting the imperfect with layered images, hidden messages, and stretched type, I embraced his work ethics into the promotional material with I Love Design. Living in the heart of downtown Jacksonville, material for the brand was abundant. Heavy on collage, I used an out-of-focus image of the city of Jacksonville, in addition to the rare fire escapes peppering the industrial buildings. I also experimented with raw textures, different weights of brush pens, and adjusting font weights from the Knockout HTF collection.
+// .details
+//   .wrapper
+//     .details__split
+//       = image_tag("work/ild-bokeh.jpg", {:title => "bokeh night", :alt => "bokeh night"})
+//     .details__split
+//       = image_tag("work/ild-stairs.jpg", {:title => "fire escape", :alt => "fire escape"})
+//     = image_tag("work/ild-elements.jpg", {:title => "additional elements", :alt => "additional elements"})
+// .callout
+//   .wrapper
+//     %p
+//       Content and images were then placed on iKit, an open-source framework for WordPress, to showcase the event to the masses, then integrated into Eventbrite.
+// .details
+//   .wrapper
+//     = image_tag("work/ild-screen.jpg", {:title => "I Love Design screen", :alt => "I Love Design screen"})
+// .callout
+//   .wrapper
+//     %p
+//       To complement Kyle's style, attributing a motion segment assisted in thrusting the design further and engaging the greater creative community. The graphic built up on Kyle's style with glitch effects and a nod to millimeter film strips.
+// .details
+//   .wrapper
+//     .details__split
+//       %video{controls: "", :loop => true, name: "media"}
+//         %source{src: "https://scontent.cdninstagram.com/t50.2886-16/15872602_170980456716081_7572179431934918656_n.mp4", type: "video/mp4"}
+//     .details__split
+//       = image_tag("work/ild-effects.jpg", {:title => "after effects screen", :alt => "after effects screen"})
+//       %p
+//         Scrambling, fractal noise, and an assortment of techniques were applied to the original artwork mirroring the distorted reality of movie plots. Chromatic breakup transitioning between footage and text would be a preview of the intense talk from Kyle.
+//       %p
+//         Built in After Effects.
+//       %p
+//         Music by
+//         %a{:href => "https://deepanddisco.bandcamp.com/track/try-so-hard", :target => "_blank"}Pegasus Warning.
+// = partial "shared/contact"

@@ -1,0 +1,107 @@
+// ---
+// title: Jen Arevalo UI/X Designer + Developer
+// ---
+// .hero.hero--work
+// .summary
+//   .wrapper
+//     .summary__photo
+//       = image_tag("work/cyanna-hero.jpg", {:title => "Cyanna", :alt => "Cyanna"})
+//       .photo__flag
+//         %p
+//           Visual Design / Front-End
+//         %h3
+//           Cyanna
+//     .summary__title
+//       %h1
+//         Cyanna
+//       %p
+//         Web-based business workflow campaign
+//     .summary__credits
+//       %ul
+//         %li
+//           Client:
+//           %a{:href => "https://www.cyanna.com/", :target => "_blank"}Cyanna
+//         %li Role: Visual Design, Front-End Development
+//       %ul
+//         %li Team: Laura Rees, Jen Lamkin, David Grimes
+//         %li Creative Direction: Jen Arevalo
+//         %li Video: Matt Lewis
+//     .summary__description
+//       %p
+//         Cyanna Education Services is a leading provider of customized software solutions and consulting advisory services to educational institutions & state agencies.
+//       %p
+//         As a consultant for Cyanna, my duties were to execute brand initiatives and apply digital, web development, and video production for educational institutions including colleges, universities, trade schools, career schools, K-12, and ESL schools.
+// .callout
+//   .wrapper
+//     %p
+//       It was important to create a consistent experience for the company to utilize, and for customers to have familiarity with a confident and experienced brand. The marketing brand would branch into video production, email campaigns, and keynotes.
+// .details
+//   .wrapper
+//     .details__split
+//       = image_tag("work/cyanna-marketing-brand-1.jpg", {:title => "Cyanna marketing icons and colors", :alt => "Cyanna marketing icons and colors"})
+//     .details__split
+//       = image_tag("work/cyanna-marketing-brand-2.jpg", {:title => "Cyanna imagery and typography", :alt => "Cyanna imagery and typography"})
+// .callout
+//   .wrapper
+//     %p
+//       The marketing and consulting team collaborated to create the Accrediting Council of Independent Colleges and Schools (ACICS) campaign, to alert and notify accredited schools of the Department of Education's to terminate ACICS as a nationally recognized accrediting agency. The landing page would address the needs for alternative accreditors and the benefits of using Cyanna in a
+//       %a{:href => "https://youtu.be/L2dvOUpZWV0", :target => "_blank"}testimonial video.
+// .details
+//   .wrapper
+//     = image_tag("work/cyanna-screen.gif", {:title => "ACICS Landing Page", :alt => "ACICS Landing Page"})
+//     .details__button
+//       %a{:href => "https://cyanna.com/accreditation-rescue/", :target => "_blank"}
+//         %button{:type => "button"}ACICS Landing Page
+// .callout
+//   .wrapper
+//     %p
+//       Schools and educators would be directed to the landing page via email campaigns. Cyanna has seen how education can transform lives and is driven to be a fundamental part of delivering education to everyone. The team offers licensing, compliance and accreditation consulting, curriculum licensing and development, software licensing and development.
+// .details
+//   .wrapper
+//     .details__split
+//       = image_tag("work/cyanna-acics-email-1.jpg", {:title => "ACICS Email 1", :alt => "ACICS Email 1"})
+//       .details__button
+//         %a{:href => "http://hosted.vresp.com/552766/bd7c2a259e/TEST/TEST/", :target => "_blank"}
+//           %button{:type => "button"}ACICS Email #1
+//     .details__split
+//       = image_tag("work/cyanna-acics-email-2.jpg", {:title => "ACICS Email 2", :alt => "ACICS Email 2"})
+//       .details__button
+//         %a{:href => "http://hosted.vresp.com/552766/69b32b1831/TEST/TEST/", :target => "_blank"}
+//           %button{:type => "button"}ACICS Email #2
+// .callout
+//   .wrapper
+//     %p
+//       In addition to the ACICS campaign, Cyanna made an effort to keep up with industry trends and embark on a Let's Tech! talk at education conventions and state authorization basics.
+// .details
+//   .wrapper
+//     .details__split
+//       = image_tag("work/cyanna-tech-email.jpg", {:title => "Let's Tech", :alt => "Let's Tech"})
+//     .details__split
+//       = image_tag("work/cyanna-sara-email.jpg", {:title => "Sara Email", :alt => "Sara Email"})
+// .details.details__callout
+//   .wrapper
+//     .details__split
+//       = image_tag("work/cyanna-edvera-screens.png", {:title => "EDvera dashboard", :alt => "EDvera dashboard"})
+//     .details__split
+//       %h2
+//         EDvera — bringing everything into one place.
+//       %p
+//         With EDvera, institutions submit paperwork electronically. No delays, no hard copy hassles. Everyone can track process and documents online. The 10-part email series encouraged customers to schedule an EDvera demo and learn more about the system. A boilerplate was developed to feature a bold headline, spirited animation, and a descriptor on the advantages of using the software.
+// .details
+//   .wrapper
+//     .details__split
+//       = image_tag("work/cyanna-edvera-value-email.gif", {:title => "EDvera email campaign", :alt => "EDvera email campaign"})
+//     .details__split
+//       .split__icons
+//         = image_tag("work/cyanna-edvera-visible.gif", {:title => "EDvera visible badge", :alt => "EDvera visible badge"})
+//         = image_tag("work/cyanna-edvera-value.gif", {:title => "EDvera value badge", :alt => "EDvera value badge"})
+//         = image_tag("work/cyanna-edvera-virtue.gif", {:title => "EDvera virtue badge", :alt => "EDvera virtue badge"})
+//         = image_tag("work/cyanna-edvera-voiced.gif", {:title => "EDvera voiced badge", :alt => "EDvera voiced badge"})
+//         = image_tag("work/cyanna-edvera-validated.gif", {:title => "EDvera validated badge", :alt => "EDvera validated badge"})
+//       .split__icons
+//         = image_tag("work/cyanna-edvera-volume.gif", {:title => "EDvera volume badge", :alt => "EDvera volume badge"})
+//         = image_tag("work/cyanna-edvera-virtual.gif", {:title => "EDvera virtual badge", :alt => "EDvera virtual badge"})
+//         = image_tag("work/cyanna-edvera-vetted.gif", {:title => "EDvera vetted badge", :alt => "EDvera vetted badge"})
+//         = image_tag("work/cyanna-edvera-verified.gif", {:title => "EDvera verified badge", :alt => "EDvera verified badge"})
+//         = image_tag("work/cyanna-edvera-verity.gif", {:title => "EDvera verity badge", :alt => "EDvera verity badge"})
+// = partial "shared/contact"

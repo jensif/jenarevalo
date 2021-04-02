@@ -1,45 +1,101 @@
-// ---
-// title: Jen Arevalo UI/X Designer + Developer
-// ---
+import Image from "next/image";
+
+import Page from "../../components/Page";
+
+export default function AlwaysSummer() {
+  return (
+    <Page>
+      <div className="hero hero--work"></div>
+      <div className="summary">
+        <div className="wrapper">
+          <div className="summary__photo">
+            <Image
+              src="/images/work/alwayssummer-hero.jpg"
+              alt="Always Summer"
+              width={1170}
+              height={779}
+            />
+            <div className="photo__flag">
+              <p>Creative Direction</p>
+              <h3>Always Summer</h3>
+            </div>
+          </div>
+          <div className="summary__title">
+            <h1>Always Summer</h1>
+            <p>Annual Fall Membership Drive & Gallery Event</p>
+          </div>
+          <div className="summary__credits">
+            <ul>
+              <li>
+                Client:{" "}
+                <a href="https://www.jacksonville.aiga.org/" target="_blank">
+                  AIGA Jacksonville
+                </a>
+              </li>
+              <li>Role: Creative Direction, Illustration, PR, Content</li>
+            </ul>
+            <ul>
+              <li>
+                Countdown video:{" "}
+                <a href="http://www.andygattis.com/" target="_blank">
+                  Andy Gattis
+                </a>
+              </li>
+              <li>
+                Front-End Developer:{" "}
+                <a href="http://www.jasonkellum.com/" target="_blank">
+                  Jason Kellum
+                </a>
+              </li>
+              <li>Photography: Kurt Hudson</li>
+            </ul>
+          </div>
+          <div className="summary__description">
+            <p>
+              Since 2008, AIGA Jacksonville, a local chapter of the AIGA
+              professional association of design, has been hosting the "Always
+              Summer Poster Show + Mixtape." Hailed as one of the most
+              anticipated events of the year, Always Summer has been successful
+              in connecting the design community and increasing awareness. Guest
+              speakers, The Bubble Process, were invited to speak, inspire, and
+              experience Always Summer weekend.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="callout">
+        <div className="wrapper">
+          <p>
+            Over 100 posters were submitted and 200 people in attendance to
+            celebrate the Jacksonville creative community along with all the
+            summer jams from past and present. By gathering a holy trinity of
+            photographers, motion designers, and social media experts, the
+            two-day jubilee continues to transfuse event goers with energy,
+            creativity, and new friends.
+          </p>
+          <p>
+            The sights and sounds of summer were exquisitely blended with the
+            help of our local DJs who set the tone for the event by playing a
+            mixtape of each poster entry. A sampling of the mixtape can be found
+            on{" "}
+            <a
+              href="https://soundcloud.com/mowglisounds/sets/aiga-jacksonville-always"
+              target="_blank"
+            >
+              SoundCloud
+            </a>
+            .
+          </p>
+        </div>
+      </div>
+      <div className="details">
+        <div className="wrapper"></div>
+      </div>
+    </Page>
+  );
+}
+
 // .hero.hero--work
-// .summary
-//   .wrapper
-//     .summary__photo
-//       = image_tag("work/alwayssummer-hero.jpg", {:title => "Always Summer", :alt => "Always Summer"})
-//       .photo__flag
-//         %p
-//           Creative Direction
-//         %h3
-//           Always Summer
-//     .summary__title
-//       %h1
-//         Always Summer
-//       %p
-//         Annual Fall Membership Drive & Gallery Event
-//     .summary__credits
-//       %ul
-//         %li
-//           Client:
-//           %a{:href => "https://www.jacksonville.aiga.org/", :target => "_blank"}AIGA Jacksonville
-//         %li Role: Creative Direction, Illustration, PR, Content
-//       %ul
-//         %li
-//           Countdown video:
-//           %a{:href => "http://www.andygattis.com/", :target => "_blank"}Andy Gattis
-//         %li
-//           Front-End Developer:
-//           %a{:href => "http://www.jasonkellum.com/", :target => "_blank"}Jason Kellum
-//         %li Photography: Kurt Hudson
-//     .summary__description
-//       %p
-//         Since 2008, AIGA Jacksonville, a local chapter of the AIGA professional association of design, has been hosting the "Always Summer Poster Show + Mixtape." Hailed as one of the most anticipated events of the year, Always Summer has been successful in connecting the design community and increasing awareness. Guest speakers, The Bubble Process, were invited to speak, inspire, and experience Always Summer weekend.
-// .callout
-//   .wrapper
-//     %p
-//       Over 100 posters were submitted and 200 people in attendance to celebrate the Jacksonville creative community along with all the summer jams from past and present. By gathering a holy trinity of photographers, motion designers, and social media experts, the two-day jubilee continues to transfuse event goers with energy, creativity, and new friends.
-//     %p
-//       The sights and sounds of summer were exquisitely blended with the help of our local DJs who set the tone for the event by playing a mixtape of each poster entry. A sampling of the mixtape can be found on
-//       %a{:href => "https://soundcloud.com/mowglisounds/sets/aiga-jacksonville-always", :target => "_blank"}SoundCloud.
 // .details
 //   .wrapper
 //     = image_tag("work/alwayssummer-event-1.jpg", {:title => "Always Summer gallery event", :alt => "Always Summer Gallery event"})

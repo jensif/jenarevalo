@@ -1,3 +1,9 @@
+import Page from "../../components/Page";
+
+export default function Posters() {
+  return <Page>hi</Page>;
+}
+
 // .hero.hero--work
 // .summary
 //   .wrapper

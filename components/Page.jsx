@@ -4,7 +4,11 @@ import Nav from "./Nav";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-export default function Page({ children, title }) {
+export default function Page({
+  children,
+  disableContact = false,
+  title = "Jen Arevalo UI/X Designer + Developer",
+}) {
   return (
     <>
       <Head>
@@ -15,7 +19,7 @@ export default function Page({ children, title }) {
 
       <main>
         {children}
-        <Contact />
+        {!disableContact && <Contact />}
       </main>
 
       <Footer />

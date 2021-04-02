@@ -1,3 +1,9 @@
+import Page from "../../components/Page";
+
+export default function TheOffice() {
+  return <Page>hi</Page>;
+}
+
 // ---
 // title: Jen Arevalo UI/X Designer + Developer
 // ---

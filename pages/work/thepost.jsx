@@ -1,3 +1,9 @@
+import Page from "../../components/Page";
+
+export default function ThePost() {
+  return <Page>hi</Page>;
+}
+
 // ---
 // title: Jen Arevalo UI/X Designer + Developer
 // ---

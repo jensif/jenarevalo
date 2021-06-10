@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Jen Arevalo's personal website",
   "author": "Jen Arevalo <>",
+  "contributors": [
+    "Julian Bravard"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jbravar/jenarevalo.git"

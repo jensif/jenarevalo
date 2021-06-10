@@ -5,7 +5,7 @@ import Page from "../components/Page";
 
 function Home() {
   return (
-    <Page title="Jen Arevalo UI/X Designer + Developer">
+    <Page>
       <div className="hero">
         <div className="wrapper">
           <h1>ui/x designer + developer</h1>
@@ -27,6 +27,7 @@ function Home() {
                   <Image
                     src="/images/work/boundlessvr-thumb.jpg"
                     alt="Boundless Florida VR"
+                    title="Boundless Florida VR"
                     width={500}
                     height={500}
                   />

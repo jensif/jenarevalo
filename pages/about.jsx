@@ -5,7 +5,7 @@ import Page from "../components/Page";
 
 function About() {
   return (
-    <Page title="Jen Arevalo UI/X Designer + Developer">
+    <Page>
       <div className="hero hero--compact" />
       <div className="profile">
         <div className="wrapper">

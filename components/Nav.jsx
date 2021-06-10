@@ -4,7 +4,8 @@ import clsx from "clsx";
 
 export default function Nav() {
   const [open, setOpen] = React.useState(false);
-  const toggleMenuOpen = (event) => {
+
+  const toggleOpen = (event) => {
     event.preventDefault();
     setOpen(!open);
   };
@@ -33,7 +34,7 @@ export default function Nav() {
             </li>
             <li className="menu">
               {/* Technically, this should be a `button`. */}
-              <a href="#" onClick={toggleMenuOpen}>
+              <a href="#" onClick={toggleOpen}>
                 <i className="zmdi zmdi-menu" />
               </a>
             </li>
@@ -43,7 +44,7 @@ export default function Nav() {
 
       <div id="nav" className={clsx("overlay", { open })}>
         {/* Technically, this should be a `button`. */}
-        <a href="#" className="closebtn" onClick={toggleMenuOpen}>
+        <a href="#" className="closebtn" onClick={toggleOpen}>
           <i className="zmdi zmdi-close" />
         </a>
         <div className="overlay-content">

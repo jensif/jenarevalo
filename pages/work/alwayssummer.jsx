@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 
 import Page from "../../components/Page";
@@ -89,73 +90,232 @@ export default function AlwaysSummer() {
         </div>
       </div>
       <div className="details">
-        <div className="wrapper"></div>
+        <div className="wrapper">
+          <Image
+            src="/images/work/alwayssummer-event-1.jpg"
+            title="Always Summer gallery event"
+            alt="Always Summer Gallery event"
+            width={2500}
+            height={1667}
+          />
+          <Image
+            src="/images/work/alwayssummer-event-2.jpg"
+            title="Always Summer gallery event"
+            alt="Always Summer Gallery event"
+            width={2500}
+            height={1312}
+          />
+          <div className="details__split">
+            <Image
+              src="/images/work/alwayssummer-event-5.jpg"
+              title="Always Summer gallery event"
+              alt="Always Summer Gallery event"
+              width={2448}
+              height={2448}
+            />
+          </div>
+          <div className="details__split">
+            <Image
+              src="/images/work/alwayssummer-event-6.jpg"
+              title="Always Summer gallery event"
+              alt="Always Summer Gallery event"
+              width={2448}
+              height={2448}
+            />
+          </div>
+          <Image
+            src="/images/work/alwayssummer-event-3.jpg"
+            title="Always Summer gallery event"
+            alt="Always Summer Gallery event"
+            width={1200}
+            height={627}
+          />
+          <Image
+            src="/images/work/alwayssummer-event-4.jpg"
+            title="Always Summer gallery event"
+            alt="Always Summer Gallery event"
+            width={2500}
+            height={565}
+          />
+          <div className="details__button">
+            <Link
+              href="https://www.flickr.com/photos/aigajacksonville/albums/72157673221761550/page1"
+              target="_blank"
+            >
+              <a>
+                <button>Always Summer Gallery</button>
+              </a>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="callout">
+        <div className="wrapper">
+          <p>
+            With 60% of our audience ranging from 25–35, the event was heavily
+            promoted through social media where a Snapchat geofilter was
+            developed and countdown video reminders were spread through
+            followers' newsfeeds.
+          </p>
+        </div>
+      </div>
+      <div className="details">
+        <div className="wrapper">
+          <div className="details__split">
+            <video controls loop name="media">
+              <source
+                src="https://scontent.cdninstagram.com/t50.2886-16/13966049_1666488330339379_1812396670_n.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div
+            className="details__split"
+            poster="/images/work/alwayssummer-video.jpg"
+          >
+            <video controls loop name="media">
+              <source
+                src="https://scontent.cdninstagram.com/t50.2886-16/13960062_1083347618408475_2019280685_n.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <Image
+            src="/images/work/alwayssummer-social-3.gif"
+            title="Always Summer social posts"
+            alt="Always Summer Gallery event"
+            width={2360}
+            height={1500}
+          />
+        </div>
+      </div>
+      <div className="details">
+        <div className="wrapper">
+          <div className="details__split">
+            <Image
+              src="/images/work/alwayssummer-social-1.gif"
+              title="Always Summer Countdown"
+              alt="Always Summer Countdown"
+              width={983}
+              height={648}
+            />
+          </div>
+          <div className="details__split">
+            <Image
+              src="/images/work/alwayssummer-social-2.gif"
+              title="Always Summer Final Countdown"
+              alt="Always Summer Final Countdown"
+              width={983}
+              height={648}
+            />
+          </div>
+        </div>
+      </div>
+      <div className="callout">
+        <div className="wrapper">
+          <p>
+            Sending out a press release for the event proved to be a benefit in
+            reaching our 36–45-year-old designers. It also introduced Always
+            Summer to a broader audience. The event was featured in the
+            September 2016 edition of Folio Weekly in one of the editor's picks,
+            "Reasons To Leave The House This Week."
+          </p>
+        </div>
+      </div>
+      <div className="details">
+        <div className="wrapper">
+          <Image
+            src="/images/work/alwayssummer-folio.jpg"
+            title="Folio Weekly feature"
+            alt="Folio Weekly feature"
+            width={1826}
+            height={833}
+          />
+        </div>
+      </div>
+      <div className="callout">
+        <div className="wrapper">
+          <p>
+            To accompany the gallery event, the organization invites a guest
+            speaker, who is well-versed in poster design, to lecture and ignite
+            the passion of print. Speakers provide a fresh outlook on the design
+            industry, and tips & tricks on what makes their art unique to their
+            name
+          </p>
+        </div>
+      </div>
+      <div className="details">
+        <div className="wrapper">
+          <div className="details__split">
+            <Image
+              src="/images/work/alwayssummer-speaker-1.jpg"
+              title="Speaker event"
+              alt="Speaker event"
+              width={2500}
+              height={1875}
+            />
+          </div>
+          <div className="details__split">
+            <Image
+              src="/images/work/alwayssummer-speaker-2.jpg"
+              title="Speaker mingle"
+              alt="Speaker mingle"
+              width={2500}
+              height={1875}
+            />
+          </div>
+          <div className="details__split">
+            <Image
+              src="/images/work/alwayssummer-speaker-3.jpg"
+              title="Speaker merch"
+              alt="Speaker merch"
+              width={2500}
+              height={1875}
+            />
+          </div>
+          <div className="details__split">
+            <Image
+              src="/images/work/alwayssummer-speaker-4.jpg"
+              title="Speaker engagement"
+              alt="Speaker engagement"
+              width={2500}
+              height={1875}
+            />
+          </div>
+        </div>
+      </div>
+      <div className="callout">
+        <div className="wrapper">
+          <p>
+            The double header event was featured in the monthly AIGA
+            Jacksonville newsletter and encouraged designers to participate by
+            creating a poster and sharing their process through a hashtag. The
+            newsletter was an excellent opportunity to spotlight our sponsors.
+          </p>
+        </div>
+      </div>
+      <div className="details">
+        <div className="wrapper">
+          <div className="details__split">
+            <Image
+              src="/images/work/alwayssummer-email-1.gif"
+              title="Always Summer is Back email"
+              alt="Always Summer is Back email"
+              width={407}
+              height={2647}
+            />
+          </div>
+          <div className="details__split">
+            <Image
+              src="/images/work/alwayssummer-email-2.gif"
+              title="Speaker email"
+              alt="Speaker email"
+              width={407}
+              height={1863}
+            />
+          </div>
+        </div>
       </div>
     </Page>
   );
 }
-
-// .hero.hero--work
-// .details
-//   .wrapper
-//     = image_tag("work/alwayssummer-event-1.jpg", {:title => "Always Summer gallery event", :alt => "Always Summer Gallery event"})
-//     = image_tag("work/alwayssummer-event-2.jpg", {:title => "Always Summer gallery event", :alt => "Always Summer Gallery event"})
-//     .details__split
-//       = image_tag("work/alwayssummer-event-5.jpg", {:title => "Always Summer gallery event", :alt => "Always Summer gallery event"})
-//     .details__split
-//       = image_tag("work/alwayssummer-event-6.jpg", {:title => "Always Summer gallery event", :alt => "Always Summer gallery event"})
-//     = image_tag("work/alwayssummer-event-3.jpg", {:title => "Always Summer gallery event", :alt => "Always Summer Gallery event"})
-//     = image_tag("work/alwayssummer-event-4.jpg", {:title => "Always Summer gallery event", :alt => "Always Summer Gallery event"})
-//     .details__button
-//       %a{:href => "https://www.flickr.com/photos/aigajacksonville/albums/72157673221761550/page1", :target => "_blank"}
-//         %button{:type => "button"}Always Summer Gallery
-// .callout
-//   .wrapper
-//     %p
-//       With 60% of our audience ranging from 25–35, the event was heavily promoted through social media where a Snapchat geofilter was developed and countdown video reminders were spread through followers' newsfeeds.
-// .details
-//   .wrapper
-//     .details__split
-//       %video{controls: "", :loop => "true", name: "media"}
-//         %source{src: "https://scontent.cdninstagram.com/t50.2886-16/13966049_1666488330339379_1812396670_n.mp4", type: "video/mp4"}
-//     .details__split
-//       %video{controls: "", :poster => image_path("work/alwayssummer-video.jpg"), :loop => true, name: "media"}
-//         %source{src: "https://scontent.cdninstagram.com/t50.2886-16/13960062_1083347618408475_2019280685_n.mp4", type: "video/mp4"}
-//     = image_tag("work/alwayssummer-social-3.gif", {:title => "Always Summer social posts", :alt => "Always Summer Gallery event"})
-// .details
-//   .wrapper
-//     .details__split
-//       = image_tag("work/alwayssummer-social-1.gif", {:title => "Always Summer Countdown", :alt => "Always Summer Countdown"})
-//     .details__split
-//       = image_tag("work/alwayssummer-social-2.gif", {:title => "Always Summer Final Countdown", :alt => "Always Summer Final Countdown"})
-// .callout
-//   .wrapper
-//     %p
-//       Sending out a press release for the event proved to be a benefit in reaching our 36–45-year-old designers. It also introduced Always Summer to a broader audience. The event was featured in the September 2016 edition of Folio Weekly in one of the editor's picks, "Reasons To Leave The House This Week."
-// .details
-//   .wrapper
-//     = image_tag("work/alwayssummer-folio.jpg", {:title => "Folio Weekly feature", :alt => "Folio Weekly feature"})
-// .callout
-//   .wrapper
-//     %p
-//       To accompany the gallery event, the organization invites a guest speaker, who is well-versed in poster design, to lecture and ignite the passion of print. Speakers provide a fresh outlook on the design industry, and tips & tricks on what makes their art unique to their name
-// .details
-//   .wrapper
-//     .details__split
-//       = image_tag("work/alwayssummer-speaker-1.jpg", {:title => "Speaker event", :alt => "Speaker event"})
-//     .details__split
-//       = image_tag("work/alwayssummer-speaker-2.jpg", {:title => "Speaker mingle", :alt => "Speaker mingle"})
-//     .details__split
-//       = image_tag("work/alwayssummer-speaker-3.jpg", {:title => "Speaker merch", :alt => "Speaker merch"})
-//     .details__split
-//       = image_tag("work/alwayssummer-speaker-4.jpg", {:title => "Speaker engagement", :alt => "Speaker engagement"})
-// .callout
-//   .wrapper
-//     %p
-//       The double header event was featured in the monthly AIGA Jacksonville newsletter and encouraged designers to participate by creating a poster and sharing their process through a hashtag. The newsletter was an excellent opportunity to spotlight our sponsors.
-// .details
-//   .wrapper
-//     .details__split
-//       = image_tag("work/alwayssummer-email-1.gif", {:title => "Always Summer is Back email", :alt => "Always Summer is Back email"})
-//     .details__split
-//       = image_tag("work/alwayssummer-email-2.gif", {:title => "Speaker email", :alt => "Speaker email"})

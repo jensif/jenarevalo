@@ -13,7 +13,6 @@ import iEmail2 from "../../public/images/work/cyanna-acics-email-2.jpg";
 import iEmailTech from "../../public/images/work/cyanna-tech-email.jpg";
 import iEmailSara from "../../public/images/work/cyanna-sara-email.jpg";
 import iEdvera from "../../public/images/work/cyanna-edvera-screens.png";
-
 import iEdveraCampaign from "../../public/images/work/cyanna-edvera-value-email.gif";
 import iEdveraVisible from "../../public/images/work/cyanna-edvera-visible.gif";
 import iEdveraValue from "../../public/images/work/cyanna-edvera-value.gif";

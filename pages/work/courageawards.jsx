@@ -26,7 +26,7 @@ import iEmail from "../../public/images/work/courageawards-post-event.jpg";
 export default function CourageAwards() {
   return (
     <Page>
-      <div className="hero hero--work"></div>
+      <div className="hero hero--work" />
       <div className="summary">
         <div className="wrapper">
           <div className="summary__photo">
@@ -222,14 +222,15 @@ export default function CourageAwards() {
           <div className="details__split">
             <Image
               src={iEmail}
+              placeholder="blur"
               title="post-event email"
               alt="post-event email"
             />
           </div>
           <div className="details__split">
-            <Image src={iGala6} title="gala" alt="gala" />
-            <Image src={iGala7} title="gala" alt="gala" />
-            <Image src={iGala8} title="gala" alt="gala" />
+            <Image src={iGala6} placeholder="blur" title="gala" alt="gala" />
+            <Image src={iGala7} placeholder="blur" title="gala" alt="gala" />
+            <Image src={iGala8} placeholder="blur" title="gala" alt="gala" />
           </div>
         </div>
       </div>

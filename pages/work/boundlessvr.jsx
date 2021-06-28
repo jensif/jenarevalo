@@ -12,7 +12,7 @@ import iScalable from "../../public/images/work/boundlessvr-scalable.jpg";
 export default function BoundlessVr() {
   return (
     <Page>
-      <div className="hero hero--work"></div>
+      <div className="hero hero--work" />
       <div className="summary">
         <div className="wrapper">
           <div className="summary__photo">

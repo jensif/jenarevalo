@@ -4,9 +4,6 @@ export default function DogLogApp() {
   return <Page>hi</Page>;
 }
 
-// ---
-// title: Jen Arevalo UI/X Designer + Developer
-// ---
 // .hero.hero--work
 // .summary
 //   .wrapper

@@ -26,7 +26,7 @@ import iSpeaker4 from "../../public/images/work/alwayssummer-speaker-4.jpg";
 export default function AlwaysSummer() {
   return (
     <Page>
-      <div className="hero hero--work"></div>
+      <div className="hero hero--work" />
       <div className="summary">
         <div className="wrapper">
           <div className="summary__photo">

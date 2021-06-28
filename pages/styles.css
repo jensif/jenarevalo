@@ -775,6 +775,9 @@ body {
   content: "";
   display: table;
 }
+.details .wrapper {
+  text-align: center;
+}
 @media screen and (min-width: 1200px) {
   .wrapper {
     padding: 0;
@@ -1647,6 +1650,7 @@ footer ul li {
   margin-right: 2.35765%;
   width: 100%;
   margin-right: 0;
+  text-align: center;
 }
 .details__split:last-child {
   margin-right: 0;

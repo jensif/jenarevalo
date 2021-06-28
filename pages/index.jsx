@@ -3,7 +3,22 @@ import Link from "next/link";
 
 import Page from "../components/Page";
 
-function Home() {
+// import images to enable auto blur while loading (doesn't work for .gif?) and
+// auto width/height detection.
+import iBoundless from "../public/images/work/boundlessvr-thumb.jpg";
+import iLevelUp from "../public/images/work/levelup-thumb.jpg";
+import iReadyForMore from "../public/images/work/rfm-thumb.jpg";
+import iAlwaysSummer from "../public/images/work/always-summer-thumb.jpg";
+import iCourage from "../public/images/work/courage-awards-thumb.jpg";
+import iCyanna from "../public/images/work/cyanna-thumb.jpg";
+import iWwpImpact from "../public/images/work/wwp-impact-thumb.jpg";
+import iIld from "../public/images/work/ild-thumb.jpg";
+import iOffice from "../public/images/work/the-office-thumb.jpg";
+import iDoglog from "../public/images/work/doglog-thumb.jpg";
+import iPortfolio from "../public/images/work/portfolio-thumb.jpg";
+import iThePost from "../public/images/work/the-post-thumb.jpg";
+
+export default function Home() {
   return (
     <Page>
       <div className="hero">
@@ -25,11 +40,10 @@ function Home() {
               <Link href="/work/boundlessvr">
                 <a>
                   <Image
-                    src="/images/work/boundlessvr-thumb.jpg"
+                    src={iBoundless}
+                    placeholder="blur"
                     alt="Boundless Florida VR"
                     title="Boundless Florida VR"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>Boundless VR</h4>
@@ -42,11 +56,10 @@ function Home() {
               <Link href="/work/levelup">
                 <a>
                   <Image
-                    src="/images/work/levelup-thumb.jpg"
+                    src={iLevelUp}
+                    placeholder="blur"
                     title="Level Up"
                     alt="Level Up"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>Level Up</h4>
@@ -59,11 +72,10 @@ function Home() {
               <Link href="/work/rfm">
                 <a>
                   <Image
-                    src="/images/work/rfm-thumb.jpg"
+                    src={iReadyForMore}
+                    placeholder="blur"
                     title="Ready For More?"
                     alt="Ready For More?"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>Ready For More?</h4>
@@ -76,11 +88,10 @@ function Home() {
               <Link href="/work/alwayssummer">
                 <a>
                   <Image
-                    src="/images/work/always-summer-thumb.jpg"
+                    src={iAlwaysSummer}
+                    placeholder="blur"
                     title="Always Summer"
                     alt="Always Summer"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>Always Summer</h4>
@@ -93,11 +104,10 @@ function Home() {
               <Link href="/work/courageawards">
                 <a>
                   <Image
-                    src="/images/work/courage-awards-thumb.jpg"
+                    src={iCourage}
+                    placeholder="blur"
                     title="Courage Awards"
                     alt="Courage Awards"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>Courage Awards</h4>
@@ -110,11 +120,10 @@ function Home() {
               <Link href="/work/cyanna">
                 <a>
                   <Image
-                    src="/images/work/cyanna-thumb.jpg"
+                    src={iCyanna}
+                    placeholder="blur"
                     title="Cyanna"
                     alt="Cyanna"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>Cyanna</h4>
@@ -127,11 +136,10 @@ function Home() {
               <Link href="/work/wwpimpact">
                 <a>
                   <Image
-                    src="/images/work/wwp-impact-thumb.jpg"
+                    src={iWwpImpact}
+                    placeholder="blur"
                     title="Impact Campaign"
                     alt="Impact Campaign"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>WWP Impact</h4>
@@ -144,11 +152,10 @@ function Home() {
               <Link href="/work/ild">
                 <a>
                   <Image
-                    src="/images/work/ild-thumb.jpg"
+                    src={iIld}
+                    placeholder="blur"
                     title="I Love Design"
                     alt="I Love Design"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>I Love Design</h4>
@@ -161,11 +168,10 @@ function Home() {
               <Link href="/work/theoffice">
                 <a>
                   <Image
-                    src="/images/work/the-office-thumb.jpg"
+                    src={iOffice}
+                    placeholder="blur"
                     title="Office Mural"
                     alt="Office Mural"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>The Office</h4>
@@ -178,11 +184,10 @@ function Home() {
               <Link href="/work/doglogapp">
                 <a>
                   <Image
-                    src="/images/work/doglog-thumb.jpg"
+                    src={iDoglog}
+                    placeholder="blur"
                     title="DogLog"
                     alt="DogLog"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>DogLog</h4>
@@ -195,11 +200,10 @@ function Home() {
               <Link href="/work/portfolio">
                 <a>
                   <Image
-                    src="/images/work/portfolio-thumb.jpg"
+                    src={iPortfolio}
+                    placeholder="blur"
                     title="Portfolio"
                     alt="Portfolio"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>Portfolio</h4>
@@ -212,11 +216,10 @@ function Home() {
               <Link href="/work/thepost">
                 <a>
                   <Image
-                    src="/images/work/the-post-thumb.jpg"
+                    src={iThePost}
+                    placeholder="blur"
                     title="The Post"
                     alt="The Post"
-                    width={500}
-                    height={500}
                   />
                   <figure>
                     <h4>The Post</h4>
@@ -231,5 +234,3 @@ function Home() {
     </Page>
   );
 }
-
-export default Home;

@@ -3,6 +3,26 @@ import Image from "next/image";
 
 import Page from "../../components/Page";
 
+// import images to enable auto blur while loading (doesn't work for .gif?) and
+// auto width/height detection.
+import iEmail1 from "../../public/images/work/alwayssummer-email-1.gif";
+import iEmail2 from "../../public/images/work/alwayssummer-email-2.gif";
+import iEvent1 from "../../public/images/work/alwayssummer-event-1.jpg";
+import iEvent2 from "../../public/images/work/alwayssummer-event-2.jpg";
+import iEvent3 from "../../public/images/work/alwayssummer-event-3.jpg";
+import iEvent4 from "../../public/images/work/alwayssummer-event-4.jpg";
+import iEvent5 from "../../public/images/work/alwayssummer-event-5.jpg";
+import iEvent6 from "../../public/images/work/alwayssummer-event-6.jpg";
+import iFolio from "../../public/images/work/alwayssummer-folio.jpg";
+import iHero from "../../public/images/work/alwayssummer-hero.jpg";
+import iSocial1 from "../../public/images/work/alwayssummer-social-1.gif";
+import iSocial2 from "../../public/images/work/alwayssummer-social-2.gif";
+import iSocial3 from "../../public/images/work/alwayssummer-social-3.gif";
+import iSpeaker1 from "../../public/images/work/alwayssummer-speaker-1.jpg";
+import iSpeaker2 from "../../public/images/work/alwayssummer-speaker-2.jpg";
+import iSpeaker3 from "../../public/images/work/alwayssummer-speaker-3.jpg";
+import iSpeaker4 from "../../public/images/work/alwayssummer-speaker-4.jpg";
+
 export default function AlwaysSummer() {
   return (
     <Page>
@@ -10,12 +30,7 @@ export default function AlwaysSummer() {
       <div className="summary">
         <div className="wrapper">
           <div className="summary__photo">
-            <Image
-              src="/images/work/alwayssummer-hero.jpg"
-              alt="Always Summer"
-              width={1170}
-              height={779}
-            />
+            <Image src={iHero} placeholder="blur" alt="Always Summer" />
             <div className="photo__flag">
               <p>Creative Direction</p>
               <h3>Always Summer</h3>
@@ -92,50 +107,44 @@ export default function AlwaysSummer() {
       <div className="details">
         <div className="wrapper">
           <Image
-            src="/images/work/alwayssummer-event-1.jpg"
+            src={iEvent1}
+            placeholder="blur"
             title="Always Summer gallery event"
             alt="Always Summer Gallery event"
-            width={2500}
-            height={1667}
           />
           <Image
-            src="/images/work/alwayssummer-event-2.jpg"
+            src={iEvent2}
+            placeholder="blur"
             title="Always Summer gallery event"
             alt="Always Summer Gallery event"
-            width={2500}
-            height={1312}
           />
           <div className="details__split">
             <Image
-              src="/images/work/alwayssummer-event-5.jpg"
+              src={iEvent5}
+              placeholder="blur"
               title="Always Summer gallery event"
               alt="Always Summer Gallery event"
-              width={2448}
-              height={2448}
             />
           </div>
           <div className="details__split">
             <Image
-              src="/images/work/alwayssummer-event-6.jpg"
+              src={iEvent6}
+              placeholder="blur"
               title="Always Summer gallery event"
               alt="Always Summer Gallery event"
-              width={2448}
-              height={2448}
             />
           </div>
           <Image
-            src="/images/work/alwayssummer-event-3.jpg"
+            src={iEvent3}
+            placeholder="blur"
             title="Always Summer gallery event"
             alt="Always Summer Gallery event"
-            width={1200}
-            height={627}
           />
           <Image
-            src="/images/work/alwayssummer-event-4.jpg"
+            src={iEvent4}
+            placeholder="blur"
             title="Always Summer gallery event"
             alt="Always Summer Gallery event"
-            width={2500}
-            height={565}
           />
           <div className="details__button">
             <Link
@@ -181,11 +190,9 @@ export default function AlwaysSummer() {
             </video>
           </div>
           <Image
-            src="/images/work/alwayssummer-social-3.gif"
+            src={iSocial3}
             title="Always Summer social posts"
             alt="Always Summer Gallery event"
-            width={2360}
-            height={1500}
           />
         </div>
       </div>
@@ -193,20 +200,16 @@ export default function AlwaysSummer() {
         <div className="wrapper">
           <div className="details__split">
             <Image
-              src="/images/work/alwayssummer-social-1.gif"
+              src={iSocial1}
               title="Always Summer Countdown"
               alt="Always Summer Countdown"
-              width={983}
-              height={648}
             />
           </div>
           <div className="details__split">
             <Image
-              src="/images/work/alwayssummer-social-2.gif"
+              src={iSocial2}
               title="Always Summer Final Countdown"
               alt="Always Summer Final Countdown"
-              width={983}
-              height={648}
             />
           </div>
         </div>
@@ -225,11 +228,10 @@ export default function AlwaysSummer() {
       <div className="details">
         <div className="wrapper">
           <Image
-            src="/images/work/alwayssummer-folio.jpg"
+            src={iFolio}
+            placeholder="blur"
             title="Folio Weekly feature"
             alt="Folio Weekly feature"
-            width={1826}
-            height={833}
           />
         </div>
       </div>
@@ -248,38 +250,34 @@ export default function AlwaysSummer() {
         <div className="wrapper">
           <div className="details__split">
             <Image
-              src="/images/work/alwayssummer-speaker-1.jpg"
+              src={iSpeaker1}
+              placeholder="blur"
               title="Speaker event"
               alt="Speaker event"
-              width={2500}
-              height={1875}
             />
           </div>
           <div className="details__split">
             <Image
-              src="/images/work/alwayssummer-speaker-2.jpg"
+              src={iSpeaker2}
+              placeholder="blur"
               title="Speaker mingle"
               alt="Speaker mingle"
-              width={2500}
-              height={1875}
             />
           </div>
           <div className="details__split">
             <Image
-              src="/images/work/alwayssummer-speaker-3.jpg"
+              src={iSpeaker3}
+              placeholder="blur"
               title="Speaker merch"
               alt="Speaker merch"
-              width={2500}
-              height={1875}
             />
           </div>
           <div className="details__split">
             <Image
-              src="/images/work/alwayssummer-speaker-4.jpg"
+              src={iSpeaker4}
+              placeholder="blur"
               title="Speaker engagement"
               alt="Speaker engagement"
-              width={2500}
-              height={1875}
             />
           </div>
         </div>
@@ -298,21 +296,13 @@ export default function AlwaysSummer() {
         <div className="wrapper">
           <div className="details__split">
             <Image
-              src="/images/work/alwayssummer-email-1.gif"
+              src={iEmail1}
               title="Always Summer is Back email"
               alt="Always Summer is Back email"
-              width={407}
-              height={2647}
             />
           </div>
           <div className="details__split">
-            <Image
-              src="/images/work/alwayssummer-email-2.gif"
-              title="Speaker email"
-              alt="Speaker email"
-              width={407}
-              height={1863}
-            />
+            <Image src={iEmail2} title="Speaker email" alt="Speaker email" />
           </div>
         </div>
       </div>

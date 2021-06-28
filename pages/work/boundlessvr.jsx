@@ -155,6 +155,7 @@ export default function BoundlessVr() {
         <div className="wrapper">
           <Image
             src={iScalable}
+            placeholder="blur"
             title="Additional Videos"
             alt="Additional Videos"
           />

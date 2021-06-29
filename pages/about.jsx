@@ -3,6 +3,11 @@ import Link from "next/link";
 
 import Page from "../components/Page";
 
+// import images to enable auto blur while loading (doesn't work for .gif?) and
+// auto width/height detection.
+import iHeadshot from "../public/images/about/headshot.jpg";
+import iCompanies from "../public/images/about/companies.png";
+
 function About() {
   return (
     <Page>
@@ -11,21 +16,14 @@ function About() {
         <div className="wrapper">
           <div className="info__split">
             <div className="profile__photo">
-              <Image
-                src="/images/about/headshot.jpg"
-                title="Jen"
-                alt="Jen"
-                width={1000}
-                height={1250}
-              />
+              <Image src={iHeadshot} placeholder="blur" title="Jen" alt="Jen" />
               <figcaption>Photography: Shane Santiago</figcaption>
             </div>
           </div>
           <div className="info__split">
             <h2>
-              Hello! I'm Jen{" "}
-              <span title="(ar-eh-vah-lo)">Arevalo</span>, mononymously known as
-              Homey, and I'm a UI/X designer + developer.
+              Hello! I'm Jen <span title="(ar-eh-vah-lo)">Arevalo</span>,
+              mononymously known as Homey, and I'm a UI/X designer + developer.
             </h2>
             <p>
               I am currently a senior digital designer at TIAA Bank developing
@@ -80,10 +78,10 @@ function About() {
               A collective of amazing people and teams I've connected with and
               learned from along the way.
               <Image
-                src="/images/about/companies.png"
+                src={iCompanies}
+                placeholder="blur"
+                title="companies"
                 alt="companies"
-                width={2100}
-                height={927}
               />
             </p>
           </div>

@@ -72,7 +72,7 @@ function About() {
       </div>
       <div className="callout">
         <div className="wrapper">
-          <div className="cappout__companies">
+          <div className="callout__companies">
             <h1>In great company!</h1>
             <p>
               A collective of amazing people and teams I've connected with and

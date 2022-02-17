@@ -1,0 +1,36 @@
+{
+  "name": "jenarevalo",
+  "version": "1.0.0",
+  "description": "Jen Arevalo's personal website",
+  "author": "Jen Arevalo <>",
+  "contributors": [
+    "Julian Bravard"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbravar/jenarevalo.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbravar/jenarevalo/issues"
+  },
+  "homepage": "https://github.com/jbravar/jenarevalo#readme",
+  "dependencies": {
+    "clsx": "^1.1.1",
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@yarnpkg/pnpify": "^3.0.0-rc.7",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "format": "prettier --write ."
+  }
+}
